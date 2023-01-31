@@ -1,0 +1,1331 @@
+/*CSS General*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:withe;
+    margin: 0px;
+}
+
+#home {
+    width: 1200px;
+    margin: auto;   
+}
+
+header {
+    height: 633px;
+    background-repeat:no-repeat;
+}
+
+nav {
+    background-image: url(../imagenes/icono.png);
+    background-repeat:no-repeat;
+    background-position: 120px 15px;
+}
+
+#navegacion {
+    display: none;
+}
+
+#navegacion2 {
+    display: none;
+}
+
+.cerrar {
+    display: none;
+}
+
+#volver {
+    display: none;
+}
+
+.historia2_cel {
+    display: none;
+}
+
+.der_manly_cel {
+    display: none;
+}
+
+.der_harbour_cel {
+    display: none;
+}
+
+.desaparece_mapa_tablet {
+    display: none;
+}
+
+.desaparece_mapa_celular {
+    display: none;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    padding: 0px;
+}
+
+#menu li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+    margin-left: 120px;
+    font-weight: 100;
+    font-family: 'Baumans', cursive;
+    font-size: 20px;
+}
+
+#menu2 li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+    margin-left: 120px;
+    font-weight: 100;
+    font-family: 'Baumans', cursive;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer, default;
+}
+
+a:hover{
+    color: rgb(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-left: 120px;
+    margin-top: 230px;;
+    font-weight: bold;
+    font-family: 'Baumans', cursive;
+    text-shadow: 3px 3px 10px black;
+}
+
+h1 span {
+    display: block;
+}
+
+p {
+ font-family: Arial;
+ font-size: 18px;
+ margin: 0px;
+}
+
+p span {
+    display: block;
+}
+
+h2 {
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    font-family: 'Baumans', cursive;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.margen {
+    margin-left: 135px;
+}
+
+footer {
+    background-image: url(../imagenes/icono.png);
+    background-repeat:no-repeat;
+    background-position: 120px 15px;
+    margin-top: 0px;
+    background-color: #3eaac4;
+}
+
+details .datos {
+    margin-left: 0px;
+}
+
+.datos li {
+    list-style-type: none;
+    text-align: center;
+    padding:5px;
+    font-weight: 100;
+    font-family: 'Baumans', cursive;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+summary {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Baumans', cursive;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Baumans', cursive;
+    font-size: 22px;
+}
+
+/*CSS Index*/
+
+.h_home {
+    background-image: url(../imagenes/h_home.jpg);
+}
+
+.bienvenida{
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+#galeria_home{
+    position: relative;
+    padding-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#sig{
+	background: url(../imagenes/botones_galeria/siguiente.png);
+	width: 42px;
+	height: 82px;
+	border: solid 2px black;
+    border-radius: 20px;
+	position: absolute;
+	right: 70px;
+    top: 150px;
+	font-size: 0px;
+}
+
+#prev{
+	background: url(../imagenes/botones_galeria/anterior.png);
+	width: 42px;
+	height: 82px;
+    border: solid 2px black;
+    border-radius: 20px;
+	position: absolute;
+	left: 50px;
+    top: 150px;
+	font-size: 0px;
+}
+
+.izquierda {
+    display: inline-block;
+}
+
+.derecha {
+    display: inline-block;
+    margin-left: 165px;
+}
+
+.publicidad {
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3eaac4;
+}
+
+.columna_derecha {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-left: 5px;
+}
+
+iframe {
+    border: 0px;
+}
+
+.desaparece_video {
+    display: none;
+}
+
+.columna_izquierda {
+    width: 370px;
+    display: inline-block;
+    margin-left: 80px;
+    color:white;
+    padding-top: 10px;
+}
+
+.columna_izquierda p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.columna_izquierda h2 {
+    padding-bottom: 0px;
+}
+
+.boton {
+    background-image: url(../imagenes/boton.jpg);
+    border-radius: 15px;
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.boton a {
+    font-family: 'Baumans', cursive;
+    color: black;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+.boton a:hover {
+    text-decoration: none;
+}
+
+h2 span{
+    display: block;
+}
+
+.caracteristicas {
+    background-color: #f2f2f2;
+    height: 350px;
+}
+
+.cosas_linea1 {
+    margin-left: 150px;
+}
+
+.cosas_linea2 {
+    margin-left: 150px;  
+}
+
+/*CSS Itinerario*/
+
+.h_itinerario {
+    background-image: url(../imagenes/itinerario/h_itinerario.jpg);
+}
+
+.parramata {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.parramata h2 {
+    text-align: center;
+    border: solid 2px #3eaac4;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.izq_parramata {
+    display: inline-block;
+    margin-left: 120px;
+    width: 550px;
+    margin-right: 15px;
+    padding-top: 40px;
+}
+
+.izq_parramata:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.der_parramata {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.manly {
+    height: 400px;
+    background-color: #f2f2f2;
+}
+
+.manly h2 {
+    text-align: center;
+    border: solid 2px #3eaac4;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.izq_manly {
+    display: inline-block;
+    width: 350px;
+    margin-left: 120px;
+    padding-top: 60px;
+}
+
+.der_manly {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.der_manly:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.bondi {
+    height: 400px;
+    background-color: #ffffff;
+
+}
+
+.bondi h2 {
+    text-align: center;
+    border: solid 2px #3eaac4;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.izq_bondi {
+    display: inline-block;
+    margin-left: 120px;
+    width: 550px;
+    margin-right: 15px;
+    padding-top: 40px;
+}
+
+.izq_bondi:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.der_bondi {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    padding-top:50px;
+    padding-left: 40px;
+}
+
+.harbour {
+    height: 400px;
+    background-color: #f2f2f2;
+}
+
+.harbour h2 {
+    text-align: center;
+    border: solid 2px #3eaac4;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.izq_harbour {
+    display: inline-block;
+    width: 350px;
+    margin-left: 120px;
+    padding-top: 75px;
+}
+
+.der_harbour {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.der_harbour:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.rocks {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.rocks h2 {
+    text-align: center;
+    border: solid 2px #3eaac4;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.izq_rocks {
+    display: inline-block;
+    margin-left: 120px;
+    width: 550px;
+    margin-right: 15px;
+    padding-top: 40px;
+}
+
+.izq_rocks:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.der_rocks {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    padding-top:70px;
+    padding-left: 40px;
+}
+
+/*CSS Información*/
+
+.h_informacion {
+    background-image: url(../imagenes/informacion/h_informacion.jpg);
+}
+
+.informacion {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.informacion p{
+    padding-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.izq_historia {
+    display: inline-block;
+    width: 550px;
+    margin-right: 15px;
+    padding-top: 5px;
+    margin-top: 7.5px;
+}
+
+.contenedor_historia1  .izq_historia {
+    padding-right: 50px;
+}
+
+.der_historia {
+    display: inline-block;
+    vertical-align: top;
+    width: 370px;
+}
+
+.contenedor_historia2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor_historia2 .izq_historia {
+    padding-left: 50px;
+}
+
+.eventos {
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.izq_eventos {
+    width: 300px;
+    margin-left: 120px;
+    text-align: center;
+    border: 2px solid #3eaac4;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.izq_eventos img {
+    margin-top: 30px;
+}
+
+.izq_eventos p {
+    margin-bottom: 30px;
+}
+
+.cen_eventos {
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #3eaac4;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cen_eventos img {
+    margin-top: 30px;
+}
+
+.cen_eventos p {
+    margin-bottom: 30px;
+}
+
+.der_eventos {
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #3eaac4;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.der_eventos img {
+    margin-top: 30px;
+}
+
+.der_eventos p {
+    margin-bottom: 30px;
+}
+
+.boton_eventos {
+    background-color: #3eaac4;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.boton_eventos a {
+    font-family: 'Baumans', cursive;
+    color: black;
+    padding-top: 20px;
+}
+
+.boton_eventos a:hover {
+    text-decoration: none;
+}
+
+.contenedor_eventos_2 {
+    margin-top: 10px;
+}
+
+
+/*CSS Contacto*/
+
+.h_contacto {
+    background-image: url(../imagenes/contacto/h_contacto.jpg);
+}
+
+.enviar {
+    display: inline-block;
+    margin-left: 430px;
+    padding: 20px;
+}
+
+.contacto {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-left: 120px;
+    width: 950px;
+}
+
+form p {
+    text-align: center;
+}
+
+form span {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: Arial;
+}
+.sexo {
+    display: inline-block;
+}
+
+label {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+legend {
+    font-family: Arial;
+    font-size: 18px; 
+}
+
+form .intereses span {
+    padding-right: 5px;
+}
+
+textarea {
+    margin-top: 30px;
+}
+
+.terminos {
+    margin-left: 330px;
+    padding-top: 20px;
+}
+
+/*CSS Gracias*/
+
+.h_gracias {
+    background-image: url(../imagenes/gracias/h_gracias.jpg);
+}
+
+h1 {
+    margin-left: 160px;
+    margin-top: 140px;
+}
+
+
+/*CSS Responsive con media-querie*/
+
+/*CSS Tablet*/
+
+@media screen and (max-width: 960px){
+
+    #home {
+        width: 960px;
+        margin: auto;   
+    }
+
+    header {
+        height: 506px;
+    }
+
+    nav {
+        background-repeat:no-repeat;
+        background-position:20px 15px;
+    }
+
+    #menu li{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 100px;
+        font-size: 14px;
+    }
+
+    #menu2 li{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 100px;
+        font-size: 14px;
+    }
+
+    h1 {
+        margin-left: 20px;
+        margin-top: 170px;
+    }
+    
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    footer {
+        background-position:20px 15px;
+    }
+
+    /*CSS Tablet Index*/
+
+        .h_home {
+            background-image: url(../imagenes/h_home_tablet.jpg);
+        }
+        
+        #galeria_home {
+            display: none;
+        }
+
+        .bienvenida p {
+            padding-bottom: 20px;
+        }
+
+        .publicidad {
+            width: 960px;
+        }
+        
+        .columna_derecha {
+            width: 500px;
+            padding-left: 0px;
+            margin-left: 50px;
+        }
+
+        .columna_izquierda {
+            margin-left: 20px;
+        }
+
+        .desaparece {
+            display: none;
+        }
+
+        .desaparece_mapa {
+            display:none;
+        }
+
+        .desaparece_mapa_tablet {
+            display: inline-block;
+        }
+
+    /*CSS Tablet Itinerario*/
+
+        .h_itinerario {
+            background-image: url(../imagenes/itinerario/h_itinerario_tablet.jpg);
+        }
+
+        .parramata {
+            height: auto;
+        }
+
+        .izq_parramata {
+            margin-left: 20px;
+            width: auto;
+            margin-right: 0px;
+            padding-bottom: 40px;
+        }
+
+        .izq_parramata:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .der_parramata {
+            padding-left: 20px;
+        }
+
+        .manly {
+            height: auto;
+        }
+
+        .izq_manly {
+            margin-left: 20px;
+        }
+
+        .der_manly {
+            margin-left: 0px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+        }
+
+        .der_manly:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .bondi {
+            height: auto;
+        }
+
+        .izq_bondi {
+            margin-left: 20px;
+            width: auto;
+            margin-right: 0px;
+            padding-bottom: 40px;
+        }
+        .izq_bondi:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .der_bondi {
+            padding-left: 20px;
+        }
+
+        .harbour {
+            height: auto;
+        }
+
+        .izq_harbour {
+            margin-left: 20px;
+        }
+
+        .der_harbour {
+            margin-left: 0px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+        }
+
+        .der_harbour:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .rocks {
+            height: auto;
+        }
+
+        .izq_rocks {
+            margin-left: 20px;
+            width: auto;
+            margin-right: 0px;
+            padding-bottom: 40px;
+        }
+
+        .izq_rocks:hover {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .der_rocks {
+            padding-left: 20px;
+        }
+
+    /*CSS Tablet Información*/
+
+        .h_informacion {
+            background-image: url(../imagenes/informacion/h_informacion_tablet.jpg);
+        }
+
+        .contenedor_historia1  .izq_historia {
+            padding-right: 0px;
+        }
+
+        .contenedor_historia2 .izq_historia {
+            padding-left: 0px;
+        }
+
+        .cen_eventos {
+            margin-left: 120px;
+        }
+
+        .contenedor_eventos_1 {
+            margin-bottom: 30px;
+        }
+
+        .contenedor_eventos_1 .der_eventos {
+            display: none;
+        }
+
+        .contenedor_eventos_2 .der_eventos {
+            display: none;
+        }
+
+    /*CSS Tablet Contacto*/
+
+        .h_contacto {
+            background-image: url(../imagenes/contacto/h_contacto_tablet.jpg);
+        }
+
+        form {
+            margin-left: 20px;
+            width: 920px;
+        }
+
+        form span {
+            padding: 0px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        form p {
+            padding: 15px;
+        }
+
+    /*CSS Tablet Gracias*/
+
+        .h_gracias {
+            background-image: url(../imagenes/gracias/h_gracias_tablet.jpg);
+        }
+
+}
+
+
+/*CSS Celulares*/
+
+@media screen and (max-width: 480px){
+
+    #home {
+        width: 480px;
+        margin: auto;   
+    }
+
+    h1 {
+        font-size: 35px;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu2 {
+        display: none;
+    }
+
+    #menu:target {
+        display:block;
+        background-color: rgba(0, 0, 0, 0.500);
+        border-radius: 5px;
+        border: solid 1px white;
+    }
+
+    #menu2:target {
+        display:block;
+        background-color: rgba(0, 0, 0, 0.500);
+        border-radius: 5px;
+        border: solid 1px white;
+    }
+
+    #navegacion {
+        background: url(../imagenes/menu.png) no-repeat;
+        width: 36px; 
+	    height: 36px;
+        display:inline-block;
+	    font-size:0;
+        margin-left: 420px;
+        margin-top: 20px;
+    }
+
+    #navegacion2 {
+        background: url(../imagenes/menu.png) no-repeat;
+        width: 36px; 
+	    height: 36px;
+        display:inline-block;
+	    font-size:0;
+        margin-left: 420px;
+        margin-top: 20px;
+    }
+
+    #volver {
+        display: inline-block;
+        background: url(../imagenes/volver.png) no-repeat;
+        width: 36px;
+        height: 36px;
+        font-size: 0px;
+        margin-left: 420px;
+        margin-top: 20px;
+    }
+
+    footer #navegacion {
+        display:none;
+    }
+
+    footer #navegacion2 {
+        display:none;
+    }
+
+    ul {
+        margin-left: 335px;
+    }
+
+    #menu li {
+        display: block;
+        margin-left: 0px;
+        padding: 0px;
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #menu2 li {
+        display: block;
+        margin-left: 0px;
+        padding: 0px;
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .cerrar{
+        display:block;
+        background:url(../imagenes/cerrar.png) no-repeat;
+        width: 36px;
+        height: 36px; 
+        font-size: 0;
+        margin-left: 61px;
+    }
+
+    /*CSS Celulares Index*/
+
+        .h_home {
+            background-image: url(../imagenes/h_home_celular.jpg);
+        }
+
+        .publicidad {
+            height: auto;
+            width: 480px;
+        }
+
+        .columna_derecha {
+            display: block;
+        }
+
+        .video {
+            display: none;
+        }
+
+        .desaparece_video {
+            display: block;
+            padding-bottom: 30px;
+        }
+
+        .columna_izquierda {
+            text-align: center;
+            margin-left: 60px;
+        }
+        
+        .columna_derecha {
+            width: auto;
+        }
+
+        .boton {
+            width: auto;
+        }
+
+        .caracteristicas {
+            height: auto;
+        }
+
+        .caracteristicas p {
+            padding-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bienvenida p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        p span {
+            display: inline;
+        }
+
+        .cosas_linea1 {
+            margin-left: 20px;
+            padding-bottom: 20px;
+        }
+
+        .cosas_linea2 {
+            margin-left: 20px;
+            margin-bottom: 0px;
+            padding-bottom: 20px;
+        }
+
+        .desaparece_celular {
+            display: none;
+        }
+
+        .desaparece_mapa_tablet {
+            display: none;
+        }
+
+        .desaparece_mapa_celular {
+            display: inline-block;
+        }
+
+    /*CSS Celulares Itinerario*/
+
+        .h_itinerario {
+            background-image: url(../imagenes/itinerario/h_itinerario_celular.jpg);
+        }
+
+        .izq_parramata {
+            margin-left: 40px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        .der_parramata {
+            padding: 0px;
+            margin-left: 65px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .izq_manly {
+            padding-bottom: 20px;
+            margin-left: 65px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .der_manly {
+            display: none;
+        }
+
+        .der_manly_cel {
+            display: inline-block;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-top: 20px;
+        }
+
+        .izq_bondi {
+            margin-left: 40px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        .der_bondi {
+            padding: 0px;
+            margin-left: 65px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .izq_harbour {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 65px;
+            text-align: center;
+        }
+
+        .der_harbour {
+            display: none;
+        }
+
+        .der_harbour_cel {
+            display: inline-block;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-top: 20px;
+        }
+
+        .izq_rocks {
+            margin-left: 40px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        .der_rocks {
+            padding: 0px;
+            margin-left: 65px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    /*CSS Celulares Informacion*/
+
+        .h_informacion {
+            background-image: url(../imagenes/informacion/h_informacion_celular.jpg);
+        }
+
+        .informacion p {
+            margin-right: 20px;
+            margin-left: 20px;
+            padding-bottom: 20px;
+        }
+
+        .contenedor_historia2 .izq_historia {
+            display: none;
+        }
+
+        .contenedor_historia1 .izq_historia {
+            width: 480px;
+            margin: 0px;
+            padding-top: 0px;
+        }
+
+        .der_historia p {
+            padding-top: 20px;
+        }
+
+        .historia2_cel {
+            display: inline-block;
+            padding-top: 20px;
+        }
+
+        .contenedor_historia2 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        .contenedor_historia2 .izq_historia {
+            padding-top: 20px;
+        }
+        
+        .cen_eventos {
+            display: none;
+        }
+
+        .izq_eventos {
+            margin-left: 95px;
+        }
+
+    /*CSS Celulares Contacto*/
+
+        .h_contacto {
+            background-image: url(../imagenes/contacto/h_contacto_celular.jpg);
+        }
+
+        .campo {
+            width: 470px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        form span {
+            margin-left: 30px;
+        }
+
+        .abajo {
+            display: block;
+            margin: 0px;
+        }
+
+        .intereses {
+            width: 445px;
+            margin: 0px;
+        }
+        
+        .nombre {
+            display: block;
+            margin-left: 30px;
+        }
+
+        .apellido {
+            display: block;
+            margin-left: 30px;
+        }
+
+        .email {
+            display: block;
+            margin-left: 30px;
+        }
+
+        .telefono {
+            display: block;
+            margin-left: 30px;
+        }
+
+        .titulo_sexo {
+            display: block;
+        }
+
+        label {
+            margin-left: 30px;
+        }
+
+        textarea {
+            width: 450px;
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+
+        .terminos {
+            margin-left: 80px;
+        }
+
+        .enviar {
+            margin-left: 200px;
+        }
+
+    /*CSS Celulares Gracias*/
+
+        .h_gracias {
+            background-image: url(../imagenes/gracias/h_gracias_celular.jpg);
+        }
+
+}
