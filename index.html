@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <script src="recursos/html5shiv.js"></script>
+    <script src="recursos/jquery.min.js"></script>
+    <script src="recursos/cycle/jquery_cycle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <title>Sydney - Home</title>
+    <link rel="icon" href="imagenes/favicon.png">
+
+    <script>
+        $('#fotos').cycle({ 
+            fx: 'fade',
+	        speed: 2000, 
+	        timeout: 2000, 
+	        prev: '#prev',
+	        next: '#sig',
+	        pause: true
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="home">
+
+    <header class="h_home">
+        <!--Navegacion del sitio-->
+        <nav>
+
+            <a href="#menu" id="navegacion">Menu</a>
+
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itinerario.html">Itinerario</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#"><span class="cerrar">Cerrar</span></a></li>
+            </ul>
+        </nav>
+
+        <!--Titulo-->
+        <h1>Sigue soñando con
+            <span>tus próximas vacaciones</span>
+            <span>en Sydney</span></h1>
+
+    </header>
+
+    <!--Cuerpo de la página-->
+    <main>
+
+        <!--Sección bienvenida-->
+        <section class="bienvenida">
+
+            <h2 class="centrado">Sydney, Australia</h2>
+
+            <p class="centrado">Bienvenido al sitio web oficial de turismo de Sydney.<span>Continuaremos compartiendo lugares alrededor</span><span>de nuestra ciudad para inspirar viajes futuros y apoyar</span><span>a las empresas locales durante este tiempo.</span><span>¡Nos vemos pronto!</span></p>
+
+        
+            <!--Galeria bienvenida-->
+                    
+            <div id="galeria_home">
+
+                <div class="izquierda">
+                    <a href="#" id="prev">Previo</a>
+                </div>
+
+                <div id="fotos">
+                    <img src="imagenes/galeria/galeria1.png" alt="Panorámica de Sydney" title="Panorámica de Sydney"/>
+                    <img src="imagenes/galeria/galeria2.png" alt="Harbour Bridge" title="Harbour Bridge"/>
+                    <img src="imagenes/galeria/galeria3.png" alt="Sydney desde el aire" title="Sydney desde el aire"/>
+                </div>
+
+                <div class="derecha">
+                    <a href="#" id="sig">Siguiente</a>
+                </div>
+
+            </div>
+
+            <p class="centrado"><span>Es la ciudad mas grande y poblada de Australia y Oceanía,</span><span>con una población en su área metropolitana cercana a 4,92</span><span>millones. Es la capital del estado de Nueva Gales del Sur</span><span>y fue el asentamiento de la primera colonia Britanica en</span><span>Australia. Fue fundada en 1788 en la Cala de Sydney por</span><span>Arthur Phillip, almirante de la Primera Flota de Gran Bretaña,</span><span>y es la ciudad más antigua del país.</span></p>
+                
+        </section>
+
+        <!--Sección evento-->
+        <section class="evento">
+
+            <div class="publicidad">
+
+                <div class="columna_izquierda">
+                    <h2><span>¡Great Southern Nights</span><span>está de regreso para</span><span>2022!</span></h2>
+                
+                    <p>Estamos ampliando la escena<span> de la música en vivo en Sydney</span><span>y NWS con conciertos COVID</span><span>Safe de Amy Shark, Baker Boy,</span><span>Missy Higgins, Jimmy Barnes</span><span>y más del 18 de marzo al 10</span><span>de abril de 2022.</span></p>
+
+                    <div class="boton">
+                        <a href="">Saber Más</a>
+                    </div>
+                </div>
+
+                <div class="columna_derecha">
+
+                    <iframe class="desaparece_video" width="400" height="400" src="https://www.youtube.com/embed/FZc2YDjNofA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <iframe class="video" width="500" height="400" src="https://www.youtube.com/embed/FZc2YDjNofA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>        
+
+        </section>
+
+
+        <!--Sección características-->
+        <section class="caracteristicas">
+
+            <h2 class="centrado">Características</h2>
+
+            <p class="centrado"><span>Sydney se encuentra situada al sureste de Australia, a orillas de la amplia</span><span>Bahía de Sydney (Puerto Jackson). En la ciudad destaca la Casa de la</span><span>Opera, el Harbour Bridge y sus playas. El área metropolitana esta rodeada</span><span>de parques nacionales que contienen bahías y rios. Sydney ha acogido</span><span>eventos deportivos internacionales como los Juegos de la Mancomunidad</span><span>de 1938, los Juegos Olimpicos de Sydney en el 2000 y la final de la Copa</span><span>Mundial de Rugby en el 2003, entre otros.</span></p>
+
+        </section>
+
+
+        <!--Sección cosas para hacer-->
+        <section>
+        
+            <h2 class="centrado">Cosas Para Hacer</h2>
+
+            <div class="cosas_linea1">
+                <img src="imagenes/cosas_para_hacer/arte.png" alt="Arte y cultura" title="Arte y cultura"/>
+                <img src="imagenes/cosas_para_hacer/itinerario.png" alt="Itinerarios" title="Itinerarios"/>
+                <img src="imagenes/cosas_para_hacer/playa.png" alt="Playas" title="Playas" class="desaparece_celular"/>
+                <img src="imagenes/cosas_para_hacer/caminatas.png" alt="Caminatas" title="Caminatas" class="desaparece"/>
+            </div>
+
+            <div class="cosas_linea2">
+                <img src="imagenes/cosas_para_hacer/deporte.png" alt="Deporte y aventura" title="Deporte y aventura"/>
+                <img src="imagenes/cosas_para_hacer/alojamiento.png" alt="Alojamiento" title="Alojamiento"/>
+                <img src="imagenes/cosas_para_hacer/comida.png" alt="Comida y bebida" title="Comida y bebida" class="desaparece_celular"/>
+                <img src="imagenes/cosas_para_hacer/vacaciones.png" alt="Vacaciones en familia" title="Vacaciones en familia" class="desaparece"/>
+            </div>
+        
+        </section>
+
+        <section class="mapa">
+
+            <h2 class="centrado">Encontranos</h2>
+
+            <iframe class="desaparece_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.1027903221!2d150.65178958903746!3d-33.84735669427987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sS%C3%ADdney%20Nueva%20Gales%20del%20Sur%2C%20Australia!5e0!3m2!1ses!2sar!4v1643570655446!5m2!1ses!2sar" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <iframe class="desaparece_mapa_tablet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.1027903221!2d150.65178958903746!3d-33.84735669427987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sS%C3%ADdney%20Nueva%20Gales%20del%20Sur%2C%20Australia!5e0!3m2!1ses!2sar!4v1643570655446!5m2!1ses!2sar" width="960" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <iframe class="desaparece_mapa_celular" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.1027903221!2d150.65178958903746!3d-33.84735669427987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sS%C3%ADdney%20Nueva%20Gales%20del%20Sur%2C%20Australia!5e0!3m2!1ses!2sar!4v1643570655446!5m2!1ses!2sar" width="480" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </section>
+
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+
+        <a href="#" id="volver">Volver</a>
+
+        <a href="#menu2" id="navegacion2">Menu</a>
+
+            <ul id="menu2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itinerario.html">Itinerario</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#"><span class="cerrar">Cerrar</span></a></li>
+            </ul>
+
+        <details>
+            
+            <summary>&copy;Da Vinci 2021 - TP2</summary>
+            <ul class="datos">
+                <li>Nombre y Apellido: Nicolás Santa Ana</li>
+                <li>Materia: Maquetado y Desarrollo Web</li>
+                <li>Docente: Mabel Garcia</li>
+                <li>Entrega 2do TP, 1er cuatrimestre de la Escuela Da Vinci 2021</li>
+            </ul>
+        
+        </details>
+
+        
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
